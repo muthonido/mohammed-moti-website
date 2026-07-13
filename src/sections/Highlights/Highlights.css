@@ -1,0 +1,52 @@
+.highlights {
+  background: white;
+  padding: 60px 8%;
+}
+
+.highlights-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.highlight-card {
+  flex: 1;
+  border-top: 4px solid #b38b10;
+  padding-top: 20px;
+}
+
+.highlight-card h2 {
+  font-size: 2rem;
+  color: #13233d;
+}
+
+.highlight-card p {
+  color: #666;
+  margin-top: 5px;
+}.highlights {
+  background: white;
+  padding: 60px 8%;
+}
+
+.highlights-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    gap:40px;
+
+}
+
+.highlight-card h2{
+    font-size:2.5rem;
+    font-weight:700;
+}
+.highlight-card h2 {
+  font-size: 2rem;
+  color: #13233d;
+}
+
+.highlight-card p {
+  color: #666;
+  margin-top: 5px;
+}

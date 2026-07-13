@@ -1,0 +1,57 @@
+.about-hero{
+
+    padding:140px 0 80px;
+
+}
+
+.about-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    align-items:center;
+
+    gap:70px;
+
+}
+
+.about-content h1{
+
+    font-size:3.5rem;
+
+    color:#13233d;
+
+    margin:25px 0;
+
+}
+
+.about-content p{
+
+    color:#666;
+
+    line-height:1.8;
+
+    font-size:18px;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    border-radius:20px;
+
+    box-shadow:0 20px 45px rgba(0,0,0,.15);
+
+}
+
+@media(max-width:992px){
+
+.about-container{
+
+grid-template-columns:1fr;
+
+}
+
+}

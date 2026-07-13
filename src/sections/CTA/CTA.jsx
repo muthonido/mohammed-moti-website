@@ -16,7 +16,7 @@ function CTA() {
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          <h2>Ready to Work With Mahomed Moti?</h2>
+          <h2>Ready to Work With mohammed Moti?</h2>
 
           <p>
             Whether you're looking for hardware, agricultural machinery,

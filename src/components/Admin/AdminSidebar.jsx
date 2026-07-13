@@ -4,7 +4,7 @@ import "./Admin.css";
 function AdminSidebar() {
   return (
     <aside className="sidebar">
-      <h2 className="logo">Mahomed Moti CMS</h2>
+      <h2 className="logo">mohammed Moti CMS</h2>
 
       <nav>
         <Link to="/admin/dashboard">📊 Dashboard</Link>

@@ -13,7 +13,7 @@ function Navbar() {
           </div>
 
           <div className="logo-text">
-            <h3>Mahomed Moti & Sons</h3>
+            <h3>mohammed Moti & Sons</h3>
             <span>KENYA LTD · EST. 1896</span>
           </div>
 

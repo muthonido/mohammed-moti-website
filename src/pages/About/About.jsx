@@ -14,7 +14,7 @@ function About() {
             <h1>Over 120 Years of Building Kenya</h1>
 
             <p>
-              Mahomed Moti & Sons Kenya Ltd has been serving generations of
+              mohammed Moti & Sons Kenya Ltd has been serving generations of
               customers since 1896.
             </p>
           </div>
@@ -31,7 +31,7 @@ function About() {
       <Timeline />
       <Mission />
       <WhyChoose />
-      <CTA />
+      <CTA /> 
       
     </>
   );

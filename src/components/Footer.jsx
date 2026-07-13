@@ -7,7 +7,7 @@ function Footer() {
       <div className="container footer-grid">
 
         <div>
-          <h2>Mahomed Moti & Sons Kenya Ltd</h2>
+          <h2>mohammed Moti & Sons Kenya Ltd</h2>
 
           <p>
             Serving Kenya since 1896 with quality hardware,
@@ -31,7 +31,7 @@ function Footer() {
           <Link to="/products?category=Hardware">Hardware</Link>
           <Link to="/agriculture">Agribusiness</Link>
           <Link to="/products?category=Industrial">Industrial</Link>
-          <Link to="/plaza">Mahomed Moti Plaza</Link>
+          <Link to="/plaza">mohammed Moti Plaza</Link>
         </div>
 
         <div>
@@ -49,7 +49,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        © {new Date().getFullYear()} Mahomed Moti & Sons Kenya Ltd.
+        © {new Date().getFullYear()} mohammed Moti & Sons Kenya Ltd.
         All Rights Reserved.
       </div>
     </footer>

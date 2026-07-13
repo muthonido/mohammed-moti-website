@@ -1,9 +1,9 @@
 const plaza = {
-  title: "Mahomed Moti Plaza",
+  title: "mohammed Moti Plaza",
   subtitle: "COMMERCIAL REAL ESTATE",
 
   description:
-    "A prestigious commercial landmark in the heart of Meru's Central Business District. Mahomed Moti Plaza offers modern, flexible spaces designed for ambitious businesses.",
+    "A prestigious commercial landmark in the heart of Meru's Central Business District. mohammed Moti Plaza offers modern, flexible spaces designed for ambitious businesses.",
 
   features: [
     "Modern, fully-serviced office suites",

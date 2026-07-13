@@ -18,7 +18,7 @@ function Footer() {
 
               <div>
 
-                <h3>Mahomed Moti</h3>
+                <h3>mohammed Moti</h3>
 
                 <span>& Sons Kenya Ltd</span>
 
@@ -68,7 +68,7 @@ function Footer() {
             <ul>
               <li>📍 Meru CBD</li>
               <li>📞 +254 722 000 000</li>
-              <li>✉ info@mahomed-moti.co.ke</li>
+              <li>✉ info@mohammed-moti.co.ke</li>
               <li>🕒 Mon–Fri 8:00–5:30</li>
             </ul>
 
@@ -81,7 +81,7 @@ function Footer() {
         <div className="footer-bottom">
 
           <p>
-            © 2026 Mahomed Moti & Sons Kenya Ltd.
+            © 2026 mohammed Moti & Sons Kenya Ltd.
             All Rights Reserved.
           </p>
 

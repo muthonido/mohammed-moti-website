@@ -14,7 +14,7 @@ function Stats() {
           transition={{ duration: 0.5 }}
           viewport={{ once: true }}
         >
-          MAHOMED MOTI & SONS — BY THE NUMBERS
+          mohammed MOTI & SONS — BY THE NUMBERS
         </motion.p>
 
         <div className="stats-grid">

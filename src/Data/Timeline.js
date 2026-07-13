@@ -4,7 +4,7 @@ const timeline = [
     year: "1896",
     title: "Company Founded",
     description:
-      "Mahomed Moti & Sons was established in Meru, Kenya, becoming one of the region's first family-owned trading businesses."
+      "mohammed Moti & Sons was established in Meru, Kenya, becoming one of the region's first family-owned trading businesses."
   },
   {
     id: 2,
@@ -23,9 +23,9 @@ const timeline = [
   {
     id: 4,
     year: "1995",
-    title: "Mahomed Moti Plaza",
+    title: "mohammed Moti Plaza",
     description:
-      "Development of Mahomed Moti Plaza, a modern commercial landmark in Meru's Central Business District."
+      "Development of mohammed Moti Plaza, a modern commercial landmark in Meru's Central Business District."
   },
   {
     id: 5,

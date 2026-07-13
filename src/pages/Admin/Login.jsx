@@ -31,7 +31,7 @@ function Login() {
     <div className="login-page">
       <form className="login-card" onSubmit={handleLogin}>
 
-        <h1>Mahomed Moti CMS</h1>
+        <h1>mohammed Moti CMS</h1>
 
         <p>Administrator Login</p>
 

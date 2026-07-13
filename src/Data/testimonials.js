@@ -4,7 +4,7 @@ const testimonials = [
     name: "John Mwangi",
     company: "Construction Contractor",
     quote:
-      "Mahomed Moti has been our trusted supplier for years. Their quality products and reliability are unmatched."
+      "mohammed Moti has been our trusted supplier for years. Their quality products and reliability are unmatched."
   },
   {
     id: 2,
@@ -18,7 +18,7 @@ const testimonials = [
     name: "James Kinyua",
     company: "Business Owner",
     quote:
-      "Leasing office space at Mahomed Moti Plaza was one of the best business decisions we made."
+      "Leasing office space at mohammed Moti Plaza was one of the best business decisions we made."
   }
 ];
 

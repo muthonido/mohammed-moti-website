@@ -6,7 +6,7 @@ const timeline = [
     year: "1896",
     title: "Company Founded",
     description:
-      "Mahomed Moti & Sons began serving customers with quality products and trusted service."
+      "mohammed Moti & Sons began serving customers with quality products and trusted service."
   },
   {
     year: "1950s",

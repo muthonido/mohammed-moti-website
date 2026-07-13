@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav>
       <div>
-        <h2>Mahomed Moti & Sons</h2>
+        <h2>mohammed Moti & Sons</h2>
       </div>
 
       <ul>

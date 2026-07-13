@@ -39,7 +39,7 @@ function WhyChoose() {
           WHY CHOOSE US
         </p>
 
-        <h2>Why Customers Trust Mahomed Moti</h2>
+        <h2>Why Customers Trust mohammed Moti</h2>
 
         <div className="why-grid">
 

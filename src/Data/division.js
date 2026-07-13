@@ -25,7 +25,7 @@ const divisions = [
   },
   {
     id: 4,
-    title: "Mahomed Moti Plaza",
+    title: "mohammed Moti Plaza",
     description:
       "Premium commercial offices and retail spaces in Meru CBD.",
     icon: "🏢",

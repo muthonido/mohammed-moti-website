@@ -34,7 +34,7 @@ function Contact() {
 
             <div className="info-card">
               <h3>✉ Email</h3>
-              <p>info@mahomedmoti.co.ke</p>
+              <p>info@mohammedmoti.co.ke</p>
             </div>
 
             <div className="info-card">

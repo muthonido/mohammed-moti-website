@@ -5,9 +5,9 @@ import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAD7WBtdKtdZGiymUvQvzL0kvTsec4TcHg",
-  authDomain: "mahomed-moti-website.firebaseapp.com",
-  projectId: "mahomed-moti-website",
-  storageBucket: "mahomed-moti-website.firebasestorage.app",
+  authDomain: "mohammed-moti-website.firebaseapp.com",
+  projectId: "mohammed-moti-website",
+  storageBucket: "mohammed-moti-website.firebasestorage.app",
   messagingSenderId: "560454889840",
   appId: "1:560454889840:web:e0cd7b5a424ad7f72edfb5"
 };

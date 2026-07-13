@@ -12,7 +12,7 @@ function Hero() {
         <h1>Building Kenya's Future for Over 120 Years</h1>
 
         <p className="hero-text">
-          Mahomed Moti & Sons Kenya Ltd is a trusted supplier of hardware,
+          mohammed Moti & Sons Kenya Ltd is a trusted supplier of hardware,
           agricultural machinery, industrial equipment, construction materials,
           generators, and commercial property solutions across Kenya.
         </p>

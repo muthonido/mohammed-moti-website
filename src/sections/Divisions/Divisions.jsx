@@ -1,5 +1,5 @@
 import "./Divisions.css";
-import divisions from "../../Data/Division";
+import divisions from "../../Data/division";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
 
@@ -9,7 +9,6 @@ function Divisions() {
   return (
     <section className="divisions">
       <div className="container">
-
         <motion.p
           className="section-tag"
           initial={{ opacity: 0, y: 20 }}
@@ -69,7 +68,6 @@ function Divisions() {
             </motion.div>
           ))}
         </div>
-
       </div>
     </section>
   );

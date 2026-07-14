@@ -1,36 +1,61 @@
 import "../styles/Navbar.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 
 function Navbar() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => setMenuOpen(false);
+
   return (
     <nav>
       <div>
         <h2>mohammed Moti & Sons</h2>
       </div>
 
-      <ul>
+      <div
+        className="menu-toggle"
+        onClick={() => setMenuOpen(!menuOpen)}
+      >
+        {menuOpen ? <HiX /> : <HiOutlineMenuAlt3 />}
+      </div>
+
+      <ul className={menuOpen ? "active" : ""}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={closeMenu}>
+            Home
+          </Link>
         </li>
 
         <li>
-          <Link to="/products">Products</Link>
+          <Link to="/products" onClick={closeMenu}>
+            Products
+          </Link>
         </li>
 
         <li>
-          <Link to="/agriculture">Agribusiness</Link>
+          <Link to="/agriculture" onClick={closeMenu}>
+            Agribusiness
+          </Link>
         </li>
 
         <li>
-          <Link to="/plaza">Plaza</Link>
+          <Link to="/plaza" onClick={closeMenu}>
+            Plaza
+          </Link>
         </li>
 
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={closeMenu}>
+            About
+          </Link>
         </li>
 
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" onClick={closeMenu}>
+            Contact
+          </Link>
         </li>
       </ul>
 

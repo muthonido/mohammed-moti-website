@@ -1,5 +1,5 @@
 import hardware from "../assets/divisions/hardware.jpg";
-import agriculture from "../assets/divisions/agriculture.jpg";
+import agricuture from "../assets/divisions/agricuture.jpg";
 import plaza from "../assets/divisions/plaza.jpg";
 import property from "../assets/divisions/property.jpg";
 
@@ -17,8 +17,8 @@ const divisions = [
     title: "Agricultural Machinery",
     description:
       "Water pumps, generators, irrigation equipment and modern farming machinery for farmers across Kenya.",
-    image: agriculture,
-    link: "/agriculture",
+    image: agricuture,
+    link: "/agricuture",
   },
   {
     id: 3,

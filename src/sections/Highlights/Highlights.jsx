@@ -4,16 +4,16 @@ import { motion } from "framer-motion";
 function Highlights() {
   const stats = [
     {
-      title: "ISO 9001",
-      subtitle: "Certified",
+      title: "120+ Years",
+      subtitle: "Serving Kenya Since 1896",
     },
     {
       title: "4 Divisions",
-      subtitle: "Nationwide",
+      subtitle: "Hardware, Agriculture, Industrial & Plaza",
     },
     {
-      title: "Since 1896",
-      subtitle: "Family Business",
+      title: "50,000+",
+      subtitle: "Satisfied Customers",
     },
   ];
 
@@ -23,8 +23,8 @@ function Highlights() {
 
         {stats.map((item, index) => (
           <motion.div
-            className="highlight-card"
             key={index}
+            className="highlight-card"
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{
@@ -32,6 +32,10 @@ function Highlights() {
               delay: index * 0.2,
             }}
             viewport={{ once: true }}
+            whileHover={{
+              y: -8,
+              transition: { duration: 0.3 },
+            }}
           >
             <h2>{item.title}</h2>
             <p>{item.subtitle}</p>

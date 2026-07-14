@@ -1,6 +1,9 @@
 import "./Hero.css";
 import { motion } from "framer-motion";
 import { FaAward, FaBuilding, FaCheckCircle } from "react-icons/fa";
+import { Link } from "react-router-dom";
+
+import heroImage from "../../assets/images/hardware.jpg";
 
 function Hero() {
   return (
@@ -23,22 +26,28 @@ function Hero() {
           </h1>
 
           <p>
-            mohammed Moti & Sons Kenya Ltd is a trusted supplier of hardware,
-            agricultural machinery, industrial equipment, and commercial
-            property across the Mount Kenya region.
+            Mohammed Moti & Sons Kenya Ltd is a trusted supplier of
+            hardware, agricultural machinery, industrial equipment and
+            commercial property serving customers across the Mount Kenya
+            region.
           </p>
 
           <div className="hero-buttons">
-            <button className="primary-btn">
-              Explore Products
-            </button>
+            <Link to="/products">
+              <button className="primary-btn">
+                Explore Products
+              </button>
+            </Link>
 
-            <button className="secondary-btn">
-              Contact Us
-            </button>
+            <Link to="/contact">
+              <button className="secondary-btn">
+                Contact Us
+              </button>
+            </Link>
           </div>
 
           <div className="hero-trust">
+
             <span>
               <FaCheckCircle />
               Trusted Since 1896
@@ -46,14 +55,16 @@ function Hero() {
 
             <span>
               <FaAward />
-              120+ Years
+              120+ Years of Excellence
             </span>
 
             <span>
               <FaBuilding />
-              Serving Kenya
+              Serving Kenya Nationwide
             </span>
+
           </div>
+
         </motion.div>
 
         {/* Right Side */}
@@ -64,8 +75,8 @@ function Hero() {
           transition={{ duration: 1 }}
         >
           <img
-            src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200"
-            alt="Modern Commercial Building"
+            src={heroImage}
+            alt="Mohammed Moti & Sons Kenya"
           />
         </motion.div>
 

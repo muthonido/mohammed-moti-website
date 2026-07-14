@@ -1,52 +1,102 @@
 .highlights {
   background: white;
-  padding: 60px 8%;
+  padding: 70px 8%;
 }
 
 .highlights-container {
+  max-width: 1200px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  gap: 40px;
 }
 
 .highlight-card {
   flex: 1;
+  background: #fff;
   border-top: 4px solid #b38b10;
-  padding-top: 20px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  transition: all 0.35s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.1);
 }
 
 .highlight-card h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #13233d;
+  margin-bottom: 10px;
 }
 
 .highlight-card p {
   color: #666;
-  margin-top: 5px;
-}.highlights {
-  background: white;
-  padding: 60px 8%;
+  line-height: 1.7;
 }
 
-.highlights-container{
-    max-width:1200px;
-    margin:auto;
-    display:flex;
-    justify-content:space-between;
-    gap:40px;
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width: 992px) {
+
+  .highlights {
+    padding: 60px 20px;
+  }
+
+  .highlights-container {
+    gap: 25px;
+  }
+
+  .highlight-card h2 {
+    font-size: 2rem;
+  }
 
 }
 
-.highlight-card h2{
-    font-size:2.5rem;
-    font-weight:700;
-}
-.highlight-card h2 {
-  font-size: 2rem;
-  color: #13233d;
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+  .highlights-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .highlight-card {
+    text-align: center;
+  }
+
+  .highlight-card h2 {
+    font-size: 2rem;
+  }
+
 }
 
-.highlight-card p {
-  color: #666;
-  margin-top: 5px;
+/* ===========================
+   SMALL PHONES
+=========================== */
+
+@media (max-width: 480px) {
+
+  .highlights {
+    padding: 50px 15px;
+  }
+
+  .highlight-card {
+    padding: 25px 18px;
+  }
+
+  .highlight-card h2 {
+    font-size: 1.8rem;
+  }
+
+  .highlight-card p {
+    font-size: 15px;
+  }
+
 }

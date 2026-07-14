@@ -13,13 +13,19 @@
   font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .divisions h2 {
   font-size: 3rem;
   color: #13233d;
   margin-bottom: 50px;
+  text-align: center;
 }
+
+/* =========================
+   GRID
+========================= */
 
 .division-grid {
   display: grid;
@@ -27,38 +33,57 @@
   gap: 30px;
 }
 
+/* =========================
+   CARD
+========================= */
+
 .division-card {
-  background: white;
+  background: #fff;
   border-radius: 20px;
   overflow: hidden;
+  cursor: pointer;
   box-shadow: 0 10px 30px rgba(0,0,0,.08);
   transition: all .35s ease;
-  cursor: pointer;
 }
 
 .division-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 45px rgba(0,0,0,.12);
+  box-shadow: 0 20px 45px rgba(0,0,0,.15);
 }
 
-.image-placeholder {
-  height: 220px;
-  background: linear-gradient(135deg,#b38b10,#e8c547);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 70px;
-  color: white;
+/* =========================
+   IMAGE
+========================= */
+
+.division-image {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
 }
+
+.division-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+.division-card:hover .division-image img {
+  transform: scale(1.08);
+}
+
+/* =========================
+   CONTENT
+========================= */
 
 .card-content {
   padding: 30px;
 }
 
 .card-content h3 {
-  margin-bottom: 15px;
-  color: #13233d;
   font-size: 1.5rem;
+  color: #13233d;
+  margin-bottom: 15px;
 }
 
 .card-content p {
@@ -68,18 +93,19 @@
 }
 
 .card-content button {
-  background: transparent;
-  border: 2px solid #b38b10;
-  color: #b38b10;
+  background: #b38b10;
+  color: white;
+  border: none;
   padding: 12px 24px;
   border-radius: 8px;
   font-weight: 600;
-  transition: .3s;
+  cursor: pointer;
+  transition: all .3s ease;
 }
 
 .card-content button:hover {
-  background: #b38b10;
-  color: white;
+  background: #8b6b00;
+  transform: translateX(5px);
 }
 
 /* =========================
@@ -88,17 +114,21 @@
 
 @media (max-width:992px){
 
-.divisions{
+  .divisions{
     padding:80px 20px;
-}
+  }
 
-.divisions h2{
-    font-size:2.5rem;
-}
+  .divisions h2{
+    font-size:2.4rem;
+  }
 
-.division-grid{
+  .division-grid{
     gap:20px;
-}
+  }
+
+  .division-image{
+    height:220px;
+  }
 
 }
 
@@ -106,42 +136,32 @@
    MOBILE
 ========================= */
 
-@media(max-width:768px){
+@media (max-width:768px){
 
-.divisions{
+  .divisions{
     padding:70px 20px;
-}
+  }
 
-.divisions h2{
-    font-size:2rem;
-    text-align:center;
-}
-
-.section-tag{
-    text-align:center;
-}
-
-.division-grid{
+  .division-grid{
     grid-template-columns:1fr;
-}
+  }
 
-.image-placeholder{
-    height:180px;
-    font-size:55px;
-}
+  .divisions h2{
+    font-size:2rem;
+  }
 
-.card-content{
+  .division-image{
+    height:220px;
+  }
+
+  .card-content{
     padding:25px;
     text-align:center;
-}
+  }
 
-.card-content h3{
-    font-size:1.3rem;
-}
-
-.card-content button{
+  .card-content button{
     width:100%;
-}
+  }
 
 }
 
@@ -149,27 +169,30 @@
    SMALL PHONES
 ========================= */
 
-@media(max-width:480px){
+@media (max-width:480px){
 
-.divisions{
+  .divisions{
     padding:60px 15px;
-}
+  }
 
-.image-placeholder{
-    height:160px;
-    font-size:45px;
-}
-
-.divisions h2{
+  .divisions h2{
     font-size:1.8rem;
-}
+  }
 
-.card-content{
+  .division-image{
+    height:180px;
+  }
+
+  .card-content{
     padding:20px;
-}
+  }
 
-.card-content p{
+  .card-content h3{
+    font-size:1.3rem;
+  }
+
+  .card-content p{
     font-size:15px;
-}
+  }
 
 }

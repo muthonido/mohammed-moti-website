@@ -9,6 +9,7 @@ function Divisions() {
   return (
     <section className="divisions">
       <div className="container">
+
         <motion.p
           className="section-tag"
           initial={{ opacity: 0, y: 20 }}
@@ -40,15 +41,14 @@ function Divisions() {
                 delay: index * 0.15,
               }}
               viewport={{ once: true }}
-              whileHover={{
-                y: -10,
-                transition: { duration: 0.3 },
-              }}
+              whileHover={{ y: -10 }}
               onClick={() => navigate(division.link)}
-              style={{ cursor: "pointer" }}
             >
-              <div className="image-placeholder">
-                <span>{division.icon}</span>
+              <div className="division-image">
+                <img
+                  src={division.image}
+                  alt={division.title}
+                />
               </div>
 
               <div className="card-content">
@@ -68,6 +68,7 @@ function Divisions() {
             </motion.div>
           ))}
         </div>
+
       </div>
     </section>
   );

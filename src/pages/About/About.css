@@ -1,57 +1,131 @@
-.about-hero{
-
-    padding:140px 0 80px;
-
+.about-hero {
+  padding: 140px 8% 100px;
+  background: #f8f9fb;
 }
 
-.about-container{
-
-    display:grid;
-
-    grid-template-columns:1fr 1fr;
-
-    align-items:center;
-
-    gap:70px;
-
+.about-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 70px;
 }
 
-.about-content h1{
-
-    font-size:3.5rem;
-
-    color:#13233d;
-
-    margin:25px 0;
-
+.about-content {
+  max-width: 600px;
 }
 
-.about-content p{
-
-    color:#666;
-
-    line-height:1.8;
-
-    font-size:18px;
-
+.section-tag {
+  color: #b38b10;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
 }
 
-.about-image img{
-
-    width:100%;
-
-    border-radius:20px;
-
-    box-shadow:0 20px 45px rgba(0,0,0,.15);
-
+.about-content h1 {
+  font-size: 3.5rem;
+  color: #13233d;
+  margin-bottom: 25px;
+  line-height: 1.15;
 }
 
-@media(max-width:992px){
-
-.about-container{
-
-grid-template-columns:1fr;
-
+.about-content p {
+  color: #666;
+  line-height: 1.8;
+  font-size: 18px;
 }
 
+.about-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 20px 45px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+
+.about-image img:hover {
+  transform: scale(1.03);
+}
+
+/* ===========================
+   TABLET
+=========================== */
+
+@media (max-width: 992px) {
+
+  .about-hero {
+    padding: 110px 20px 80px;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 45px;
+    text-align: center;
+  }
+
+  .about-content {
+    max-width: 100%;
+  }
+
+  .about-content h1 {
+    font-size: 2.8rem;
+  }
+
+  .about-image img {
+    height: 420px;
+  }
+}
+
+/* ===========================
+   MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+  .about-hero {
+    padding: 90px 20px 70px;
+  }
+
+  .about-container {
+    gap: 35px;
+  }
+
+  .about-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-content p {
+    font-size: 16px;
+  }
+
+  .about-image img {
+    height: 280px;
+    border-radius: 15px;
+  }
+}
+
+/* ===========================
+   SMALL PHONES
+=========================== */
+
+@media (max-width: 480px) {
+
+  .about-hero {
+    padding: 80px 15px 60px;
+  }
+
+  .about-content h1 {
+    font-size: 1.9rem;
+  }
+
+  .about-content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .about-image img {
+    height: 230px;
+  }
 }
